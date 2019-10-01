@@ -1,5 +1,36 @@
-<!DOCTYPE html>
+h1 {
+  color: orange;
+}
+
+h2 {
+  color: yellow;
+}
 
 p {
-    color: yellow;
+    color: blue;
+    text-align: middle;
+}
+
+table {
+    border: 1px solid blue;
+}
+
+.nav a{
+    display: block;
+    color: white;
+    font-family: cursive;
+    text-align: center;
+    text-decoration: none;
+}
+
+.content p{
+    color: blue;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.section-header h1{
+    color: orange;
+    font-size: 50px;
+    font-weight: bold;
 }

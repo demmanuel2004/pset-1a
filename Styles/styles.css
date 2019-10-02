@@ -1,5 +1,5 @@
 h1 {
-  color: orange;
+  color: Red;
 }
 
 h2 {
@@ -15,22 +15,14 @@ table {
     border: 1px solid blue;
 }
 
-.nav a{
-    display: block;
-    color: white;
-    font-family: cursive;
-    text-align: center;
-    text-decoration: none;
-}
-
 .content p{
     color: blue;
     font-size: 20px;
     font-style: italic;
 }
 
-.section-header h1{
-    color: orange;
+.header h1{
     font-size: 50px;
     font-weight: bold;
-}
+    font-family: Arial Black;
+  }

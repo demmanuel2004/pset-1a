@@ -1,19 +1,33 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
 h1 {
   color: Red;
+  font-size: 50px;
+  padding: 10px;
 }
 
 h2 {
   color: yellow;
+  text-decoration: underline;
+  padding: 10px;
+  font-size: 30px;
 }
 
 p {
     color: blue;
     text-align: middle;
+    padding: 10px;
+    margin: 10px;
 }
 
 table {
     border: 1px solid blue;
 }
+
+
 
 .content p{
     color: blue;
@@ -22,7 +36,15 @@ table {
 }
 
 .header h1{
-    font-size: 50px;
     font-weight: bold;
     font-family: Arial Black;
   }
+
+  .header h2{
+    font-weight: bold;
+    font-family: Arial Black;
+  }
+
+  #someId {color: red}
+  #secondId {color: red}
+  #thirdId {color: red}

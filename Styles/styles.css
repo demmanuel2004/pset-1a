@@ -1,6 +1,6 @@
 * {
   padding: 0px;
-  margin: 0px;
+  margin: 1px;
 }
 
 h1 {
@@ -12,15 +12,15 @@ h1 {
 h2 {
   color: yellow;
   text-decoration: underline;
-  padding: 10px;
+  padding: 0px;
   font-size: 30px;
 }
 
 p {
     color: blue;
-    text-align: middle;
-    padding: 10px;
-    margin: 10px;
+    text-align: left;
+    padding: 15px;
+    margin: 0px;
 }
 
 table {
@@ -31,7 +31,7 @@ table {
 
 .content p{
     color: blue;
-    font-size: 20px;
+    font-size: 25px;
     font-style: italic;
 }
 
@@ -45,6 +45,8 @@ table {
     font-family: Arial Black;
   }
 
-  #firstid {color: red}
+  #footer
+  #nav {
+    border: 1px solid red;
+  }
   #footer {color: red}
-  #thirdId {color: red}

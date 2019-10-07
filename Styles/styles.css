@@ -1,6 +1,6 @@
 * {
   padding: 0px;
-  margin: 1px;
+  margin: 3px;
 }
 
 h1 {
@@ -41,7 +41,7 @@ ul:hover {
   background-color: white;
 }
 a:visited{
-  color: red;
+  color: black;
 }
 
 
@@ -74,17 +74,27 @@ a:visited{
   }
   div p.third {
     font-weight: 300;
-  }div p.fourth {
+  }
+
+  div p.fourth {
     font-weight: 400;
-  }div p.fifth {
+  }
+
+  div p.fifth {
     font-weight: 500;
-  }div p.sixth {
+  }
+
+  div p.sixth {
     font-weight: 800;
+
+    a[title]{color: yellow;}
+
+    
 
 
 
   #footer
     #word2{
-      
+
     }
   #footer {color: red}

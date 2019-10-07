@@ -4,7 +4,7 @@
 }
 
 h1 {
-  color: Red;
+  color: orange;
   font-size: 50px;
   padding: 10px;
 }
@@ -27,6 +27,22 @@ table {
     border: 1px solid blue;
 }
 
+.nav {
+  text-align: center;
+
+}
+.nav li {
+  display: inline-block;
+  font-size: 20px;
+  padding: 10px;
+}
+
+ul:hover {
+  background-color: white;
+}
+a:visited{
+  color: red;
+}
 
 
 .content p{
@@ -45,8 +61,30 @@ table {
     font-family: Arial Black;
   }
 
+  P::first-letter{
+    color: white;
+    font-size: xx-large;
+  }
+
+  div p.first {
+    font-weight: 900;
+  }
+  div p.second {
+    font-weight: 200;
+  }
+  div p.third {
+    font-weight: 300;
+  }div p.fourth {
+    font-weight: 400;
+  }div p.fifth {
+    font-weight: 500;
+  }div p.sixth {
+    font-weight: 800;
+
+
+
   #footer
-  #nav {
-    border: 1px solid red;
+  #nav1 {
+border: 1px solid red;
   }
   #footer {color: red}

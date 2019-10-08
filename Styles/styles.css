@@ -102,12 +102,13 @@ a:visited{
   height: 25%;
   }
 
-    #backinfo{
+    #footer1{
       color: red;
+      font-weight: bold;
     }
 
-  #lists {
-    color: gold;
+  #bold-list {
+    color: black;
     font-weight: bolder;
     text-decoration: underline;
   }

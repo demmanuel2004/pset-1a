@@ -12,7 +12,7 @@ h1 {
 h2 {
   color: yellow;
   text-decoration: underline;
-  padding: 0px;
+  padding: 1px;
   font-size: 30px;
 }
 
@@ -89,12 +89,25 @@ a:visited{
 
     a[title]{color: yellow;}
 
-    
 
 
 
-  #footer
-    #word2{
 
+  #pic1{
+    border-width: 0px;
+  margin: 0px;
+  padding: 0px;
+  position: absolute;
+  width: 25%;
+  height: 25%;
+  }
+
+    #backinfo{
+      color: red;
     }
-  #footer {color: red}
+
+  #lists {
+    color: gold;
+    font-weight: bolder;
+    text-decoration: underline;
+  }

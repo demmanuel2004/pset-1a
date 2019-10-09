@@ -40,10 +40,10 @@ table {
 ul:hover {
   background-color: white;
 }
+
 a:visited{
   color: black;
 }
-
 
 .content p{
     color: blue;
@@ -69,9 +69,11 @@ a:visited{
   div p.first {
     font-weight: 900;
   }
+
   div p.second {
     font-weight: 200;
   }
+
   div p.third {
     font-weight: 300;
   }
@@ -80,26 +82,22 @@ a:visited{
     font-weight: 400;
   }
 
-  div p.fifth {
+ div p.fifth {
     font-weight: 500;
   }
 
   div p.sixth {
     font-weight: 800;
+  }
 
-    a[title]{color: yellow;}
-
-
-
-
+  a[title]{color: black;}
 
   #pic1{
     border-width: 0px;
   margin: 0px;
   padding: 0px;
-  position: absolute;
-  width: 25%;
-  height: 25%;
+  width: 50%;
+  height: 50%;
   }
 
     #footer1{
